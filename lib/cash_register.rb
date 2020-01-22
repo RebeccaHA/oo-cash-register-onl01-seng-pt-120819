@@ -14,7 +14,7 @@ class CashRegister
   
   def add_item(title, price, quantity = 1)
    self.total += (price*quantity)  #self = instance of the class += still invokes the method, setter method
-   @items << (title)*(quantity)
+   @items << (title*quantity)
   end
   
   def apply_discount
