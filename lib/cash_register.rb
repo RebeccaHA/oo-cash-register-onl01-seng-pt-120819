@@ -28,7 +28,7 @@ class CashRegister
   def items
     @items
   end
-  
+  binding.pry
   def void_last_transaction
      self.total -= @last_transation.to_f
   end
